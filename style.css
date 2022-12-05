@@ -1,0 +1,351 @@
+/* main elements */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+body {
+    background-color: #000;
+    height: 100vh;
+}
+::selection {
+    background-color: yellow;
+    color: black;
+}
+/*header*/
+.navbar {
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    padding: 1px 5%;
+    z-index: 1;
+}
+.containar {
+    display: grid;
+    grid-template-columns: 6fr 2.5fr;
+}
+.Nav-Img {
+    width: 150px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li {
+    padding-top: 35px;
+    padding-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    transition: 0.3s;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+/*home*/
+.Home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 100vh;
+} 
+.h1-home {
+    color: white;
+    font-size: 50px;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+.h5-home {
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+}
+.p-home {
+    max-width: 300px;
+    padding-left: 150px;
+    color: white;
+    font-size: 15px;
+}
+.home-img1 {
+    max-width: 100%;
+    width: 400px;
+    margin: 100px;
+    margin-top: 50px;
+}
+.btn-1 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 130px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-1:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*sec-2*/
+.Planits {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 6rem;
+}
+.sun {
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+}
+.t-1 {
+    color: white;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+.pre-1 {
+    font-size: 14px;
+    color: white;
+    margin-right: 50px;
+    font-weight: 900;
+}
+.btn-2 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-2:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*sec-3*/
+.mercury {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+}
+.mer {
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-top: 130px;
+}
+.t-2 {
+    color: white;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+.pre-2 {
+    font-size: 14px;
+    color: white;
+    margin-right: 50px;
+    font-weight: 900;
+}
+.btn-3 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-3:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*sec-4*/
+.Venus {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+}
+.Ven {
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-top: 160px;
+}
+.t-3 {
+    color: white;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+.pre-3 {
+    font-size: 14px;
+    color: white;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.btn-4 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-4:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*sec-5*/
+.earth {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+}
+.ear {
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-top: 160px;
+}
+.t-4 {
+    color: white;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+.pre-4 {
+    font-size: 14px;
+    color: white;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.btn-5 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-5:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*sec-6*/
+.Mars {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+}
+.Mar {
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-top: 160px;
+}
+.t-5 {
+    color: white;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+.pre-5 {
+    font-size: 14px;
+    color: white;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.btn-6 {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.btn-6:hover {
+    box-shadow: 0 0 10px yellow,
+    0 0 30px yellow;
+}
+/*end*/
+.end {
+    width: 100%;
+    margin-top: 15rem;
+}
+.box {
+    color: white;
+    padding: 0 25px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid yellow;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+    transition: 0.9s;
+    margin-bottom: 40px;
+}
